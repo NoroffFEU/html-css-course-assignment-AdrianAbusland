@@ -11,9 +11,13 @@ body {
 }
 
 .centered {
-  display: flex;
+  /*display: flex;*/
   justify-content: center;
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+
+header{
+  display: flex;
 }
