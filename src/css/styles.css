@@ -8,16 +8,216 @@
 body {
   color: var(--color-primary);
   background-color: var(--color-secondary);
-}
-
-.centered {
-  /*display: flex;*/
-  justify-content: center;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
 }
 
 header{
+  background: #2F3236; 
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  flex-flow: row wrap;
+  padding: 1em;
 }
+
+.logo{
+  width: 179px;
+  height: 105px;
+  flex-shrink: 0;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.menubutton{
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+}
+
+.highlight{
+  text-decoration: underline;
+}
+
+.searchimg{
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+
+}
+
+.cart{
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+}
+
+.profile{
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+}
+
+main{
+  display: flex;
+  flex-flow: column wrap;
+  position: static;
+  padding-top: 150px;
+}
+
+
+
+.gamecover{
+  width: 327px;
+  height: 424px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 670px) {
+  header{
+    align-items: stretch;
+    justify-items: stretch;
+  }
+  
+  nav{
+    order: 3;
+    width: 100%;
+    justify-content: space-around;
+    gap: 0.5em;
+  }
+
+  .icons{
+    /* padding-left: 140px; */
+    order: 2;
+  }
+}
+
+
+
+
+/* 
+body {
+  color: var(--color-primary);
+  background-color: var(--color-secondary);
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  grid-gap: 1em;
+  grid-template-rows: auto auto auto auto;
+  grid-template-areas:
+  'header header'
+  'news news'
+  'mostpopular mostpopular'
+  ;
+}
+
+.gamecover{
+  width: 327px;
+  height: 424px;
+  flex-shrink: 0;
+}
+
+header{
+  display: grid;
+  height: auto;
+  background: black;
+  align-items: center;
+  justify-items: center;
+  grid-template-areas: 
+  'logo nav icons'
+  ;
+}
+
+.header-logo{
+  background-color: blueviolet;
+  width: 210px;
+  height: 133px;
+  flex-shrink: 0;
+  justify-self: start;
+  padding: 5px;
+}
+
+.logo{
+  width: 210px;
+  height: 133px;
+  flex-shrink: 0;
+  padding: 5px;
+}
+
+nav{
+  display: grid;
+  background-color: blueviolet;
+  border-radius: 37.5px;
+  width: 525px;
+  height: 75px;
+  flex-shrink: 0;
+  grid-template-areas:
+  'home games about contact search'
+  ;
+  align-items: center;
+  grid-gap: 30px;
+} 
+
+nav a{
+
+}
+
+a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  line-height: normal;
+  align-items: center; 
+}
+
+.home{
+  margin-left: 30px;
+}
+
+.cart{
+  width: 100px;
+  height: 50px;
+  flex-shrink: 0;
+}
+
+.profile{
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+}
+
+.icons{
+  justify-self: end;
+  align-self: top;
+}
+
+.news{
+  background-color: black;
+}
+
+h1{
+  
+}
+
+.mostpopular{
+  background-color: black;
+}
+
+header{grid-area: header;}
+.logo{grid-area: logo;}
+nav{grid-area: nav;}
+.icons{grid-area: icons;}
+.profile{grid-area: profile;}
+.news{grid-area: news;}
+.mostpopular{grid-area: mostpopular;}
+.home{grid-area: home;}
+.games{grid-area: games;}
+.about{grid-area: about;}
+.contact{grid-area: contact;}
+.search{grid-area: search;} */
