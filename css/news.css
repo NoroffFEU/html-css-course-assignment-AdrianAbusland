@@ -34,7 +34,6 @@
 }
 
 .news-h2-p-bb-container{
-    border: 1px solid red;
     flex-basis: 70%;
     display: flex;
     flex-flow: column;
