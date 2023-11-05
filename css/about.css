@@ -1,11 +1,12 @@
 .about-container{
+    border: 1px solid red;
     display: flex;
     flex-flow: column wrap;
-    align-items: center;
+    align-items: flex-start;
     align-self: center;
     min-height: 75vh;
     padding: 10px;
-    width: 75vh;
+    max-width: 75vw;
 }
 
 .about-h1{
@@ -17,7 +18,14 @@
 }
 
 .adresse{
+    border: 1px solid red;
     display: flex;
     flex-flow: column;
-    align-self: flex-start;
+    width: 100%;
+}
+
+.adresse-frame{
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
