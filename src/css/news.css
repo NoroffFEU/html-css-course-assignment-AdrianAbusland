@@ -3,7 +3,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    border: 1px solid red;
     min-height: 75vh;
 }
 
@@ -15,7 +14,6 @@
 }
 
 .news-h1-container{
-    border: 1px solid blue;
     flex-basis: 100%;
     display: flex;
     justify-content: center;
@@ -28,7 +26,6 @@
 }
 
 .news-sw-gc-container{
-    border: 1px solid green;
     flex-basis: 25%;
     display: flex;
     justify-content: flex-end;
@@ -36,7 +33,6 @@
 }
 
 .news-h2-p-bb-container{
-    border: 1px solid yellow;
     flex-basis: 70%;
     display: flex;
     flex-flow: column;
@@ -47,7 +43,6 @@
 }
 
 .news-h2-p-container{
-    border: 1px solid red;
     inline-size: 50vw;
     overflow-wrap: break-word;
 }

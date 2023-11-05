@@ -1,5 +1,4 @@
 .most-popular{
-    border: 1px solid blue;
     display: flex;
     flex-flow: row wrap;
     gap: 10px;
@@ -7,7 +6,6 @@
   }
   
   .mp-h2-container{
-    border: 1px solid red;
     display: flex;
     flex-basis: 100%;
     justify-content: center;
@@ -19,7 +17,6 @@
   }
 
   .mp-sw-prices-container{
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
   }
@@ -33,7 +30,6 @@
   }
 
   .show-more-button-container{
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     flex-basis: 100%;
