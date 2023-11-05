@@ -1,5 +1,4 @@
 .about-container{
-    border: 1px solid red;
     display: flex;
     flex-flow: column wrap;
     align-items: flex-start;
@@ -18,7 +17,6 @@
 }
 
 .adresse{
-    border: 1px solid red;
     display: flex;
     flex-flow: column;
     width: 100%;
