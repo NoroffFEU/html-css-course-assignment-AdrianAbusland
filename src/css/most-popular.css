@@ -18,4 +18,32 @@
     font-size: 30px;
   }
 
+  .mp-sw-prices-container{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .mp-titles{
+    font-size: 20px;
+  }
+
+  .mp-prices{
+    font-size: 20px;
+  }
+
+  .show-more-button-container{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    flex-basis: 100%;
+    padding: 10px;
+  }
+
+  @media (max-width: 765px) {
+    .mp-h2{
+        font-size: 25px;
+    }
+}
+
   

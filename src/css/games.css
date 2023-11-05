@@ -1,0 +1,43 @@
+.games{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.games-h2-container{
+    border: 1px solid red;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.games-h2{
+    border: 1px solid red;
+    font-size: 30px;
+}
+
+.games-container{
+    border: 1px solid red;
+    flex-basis: 33%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.games-prices-container{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 327px;
+}
+
+.games-sw{
+    text-decoration: none;
+    color: #fff;
+}
+
+.games-sw:hover{
+    color: var(--color-medium-light);
+}

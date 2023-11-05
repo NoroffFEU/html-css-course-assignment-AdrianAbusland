@@ -1,0 +1,19 @@
+footer{
+    border: 1px solid red;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+.footer-logo-container{
+    border: 1px solid red;
+}
+
+.footer-item{
+    border: 1px solid red;
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    padding: 10px;
+}
