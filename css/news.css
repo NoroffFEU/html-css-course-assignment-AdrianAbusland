@@ -34,6 +34,7 @@
 }
 
 .news-h2-p-bb-container{
+    border: 1px solid red;
     flex-basis: 70%;
     display: flex;
     flex-flow: column;
@@ -44,8 +45,15 @@
 }
 
 .news-h2-p-container{
+    min-width: 327px;
     inline-size: 50vw;
     overflow-wrap: break-word;
+}
+
+.news-buy-button{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
 }
 
 @media (max-width: 1415px) {
