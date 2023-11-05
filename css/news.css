@@ -52,7 +52,7 @@
 .news-buy-button{
     display: flex;
     flex-flow: column wrap;
-    align-items: center;
+    align-items: flex-start;
 }
 
 @media (max-width: 1415px) {

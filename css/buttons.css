@@ -13,7 +13,7 @@
     padding: 10px 20px;
 }
 
-.buy-button:hover{
+.button:hover{
     color: var(--color-medium-light);
 }
 
@@ -27,6 +27,6 @@
     border-radius: 10px;
 }
 
-.show-more-button:hover{
+/* .show-more-button:hover{
     color: var(--color-medium-light);
-}
+} */
