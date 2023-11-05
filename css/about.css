@@ -15,15 +15,3 @@
 .about-h2{
     font: 25px;
 }
-
-.adresse{
-    display: flex;
-    flex-flow: column;
-    width: 100%;
-}
-
-.adresse-frame{
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
