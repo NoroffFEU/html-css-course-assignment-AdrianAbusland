@@ -11,6 +11,7 @@
     flex-flow: row wrap;
     min-height: 75vh;
     align-items: flex-start;
+    background-color: rgba(61, 61, 61, 0.5);
 }
 
 .news-h1-container{
