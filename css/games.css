@@ -1,0 +1,39 @@
+.games{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.games-h2-container{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.games-h2{
+    font-size: 30px;
+}
+
+.games-container{
+    flex-basis: 33%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.games-prices-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 327px;
+}
+
+.games-sw{
+    text-decoration: none;
+    color: #fff;
+}
+
+.games-sw:hover{
+    color: var(--color-medium-light);
+}

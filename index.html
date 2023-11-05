@@ -3,13 +3,98 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Example Title, replace me!</title>
-  <link rel="stylesheet" href="src/css/styles.css">
+  <title>Home | Game Hub</title>
+  <meta name="description" content="Game hub have all the games you ever need.">
+  <link rel="stylesheet" type="text/css" href="./css/styles.css">
+  <link rel="stylesheet" type="text/css" href="./css/header.css">
+  <link rel="stylesheet" type="text/css" href="./css/news.css">
+  <link rel="stylesheet" type="text/css" href="./css/most-popular.css">
+  <link rel="stylesheet" type="text/css" href="./css/footer.css">
+  <link rel="stylesheet" type="text/css" href="./css/buttons.css">
+  <link rel="stylesheet" type="text/css" href="./css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./css/variables.css">
+  <link rel="stylesheet" type="text/css" href="./css/colors.css">
 </head>
-<body class="centered">
-  <div>
-    <img src="/assets/images/noroff-logo.png" alt="Noroff Logo">
-    <h1>Hello World!</h1>
-  </div>
+<body>
+  <Header>
+    <a href="./index.html"><img class="logo" src="./assets/GameHub_Logo.png" alt="Game Hub Logo"></a>
+    <nav class="header-menu">
+      <a class="highlight home menubutton" href="./index.html">Home</a></li>
+      <a class="games menubutton button" href="./Games/index.html">Games</a></li>
+      <a class="about menubutton button" href="./About/index.html">About</a></Li>
+      <a class="contact menubutton button" href="./Contact/index.html">Contact</a>
+      <a class="searchbutton" href=""><img class="searchimg" src="./assets/Search Button.svg" alt="search button"></a>
+    </nav>
+    <div class="icons">
+      <a href="./Cart/index.html"><img class="cart" src="./assets/Shoppingcart.svg" alt="./image/button of a cart"></a>
+      <a href="./Error/index.html"><img class="profile" src="./assets/Profile.svg" alt="image/button of a my profile"></a>
+    </div>
+  </Header>
+  <main>
+    <section class="news">
+      <div class="news-content">
+        <div class="news-h1-container news-item">
+          <h1 class="news-h1">NEWS!</h1>
+        </div>
+        <div class="news-sw-gc-container news-item">
+          <a href="./product/index.html"><img class="news-sw-gc gamecover" src="./assets/GameHub_covers6.jpg" alt="Space Wars cover image"></a>
+        </div>
+        <div class="news-h2-p-bb-container news-item">
+          <div class="news-h2-p-container">
+            <h2 class="news-sp-h2 news-h2-p-item">Space War</h2>
+            <p class="news-p news-h2-p-item">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          </div>
+          <div class="news-buy-button buy-button-container">
+            <p class="news-price">$29.99</p>
+            <a class="buy-button news-h2-p-item button" href="./cart/index.html" alt="Buy button">Buy Now</a>
+          </div>  
+        </div>
+      </div>
+    </section>
+    <section class="most-popular">
+      <div class="mp-h2-container">
+        <h2 class="mp-h2">Most Popular</h2>
+      </div>
+      <div>
+        <div>
+          <img class="gamecover" src="./assets/GameHub_covers6.jpg" alt="Space Wars cover image">
+        </div>
+        <div class="mp-sw-prices-container">
+          <h3 class="mp-titles">Space War</h3>
+          <p class="mp-prices">$29.99</p>
+        </div>
+      </div>
+      <div>
+        <div>
+          <img class="gamecover" src="./assets/GameHub_covers.jpg" alt="Ping Ping cover image">
+        </div>
+        <div class="mp-sw-prices-container">
+          <h3 class="mp-titles">Ping Pong</h3>
+          <p class="mp-prices">$25.99</p>
+        </div>
+      </div>
+      <div>
+        <div>
+          <img class="gamecover" src="./assets/GameHub_covers10.jpg" alt="Forge legend cover image">
+        </div>
+        <div class="mp-sw-prices-container">
+          <h3 class="mp-titles">Forge Legend</h3>
+          <p class="mp-prices">$49.99</p>
+        </div>
+      </div>
+      <div class="show-more-button-container">
+        <a class="show-more-button button" href="./Games/index.html" alt="Show more button">Show more</a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <a class="footer-logo-container" href="./index.html"><img class="logo" src="./assets/GameHub_Logo.png" alt="Game Hub Logo"></a>
+    <nav>
+      <a class="footer-item button" href="./Error/index.html">Terms of use</a>
+      <a class="footer-item button" href="./Error/index.html">Privacy policy</a>
+      <a class="footer-item button" href="./Contact/index.html">Contact us</a>
+      <a class="footer-item button" href="./Error/index.html">FAQ</a>
+    </nav>
+  </footer>
 </body>
 </html>
