@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Example Title, replace me!</title>
+  <title>Home | Game Hub</title>
   <link rel="stylesheet" href="src/css/styles.css">
 </head>
 <body>
@@ -23,19 +23,50 @@
   </Header>
   <main>
     <section class="news">
-      <h1>NEWS!</h1>
-      <img class="gamecover" src="assets/GameHub_covers6.jpg" alt="Space Wars cover image">
-      <h2>Space War</h2>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          <div class="news-h1-container news-item">
+            <h1 class="news-h1">NEWS!</h1>
+          </div>
+          <div class="news-sw-gc-container news-item">
+            <img class="news-sw-gc gamecover" src="assets/GameHub_covers6.jpg" alt="Space Wars cover image">
+          </div>
+          <div class="news-h2-p-bb-container news-item">
+            <div class="news-h2-p-container">
+              <h2 class="news-sp-h2 news-h2-p-item">Space War</h2>
+              <p class="news-p news-h2-p-item">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+            <div class="news-buy-button buy-button-container">
+              <a class="buy-button news-h2-p-item" href="/checkout/index.html" alt="Buy button">Buy Now</a>
+            </div>  
+          </div>
     </section>
-    <section class="mostpopular">
-      <h2>Most Popular</h2>
-      <img class="gamecover" src="assets/GameHub_covers6.jpg" alt="Space Wars cover image">
-      <h3>Space War</h3>
-      <p>$29.99</p>
-      <img class="gamecover" src="assets/GameHub_covers.jpg" alt="Space Wars cover image">
-      <h3>Space War</h3>
-      <p>$29.99</p>
+    <section class="most-popular">
+      <div class="mp-h2-container">
+        <h2 class="mp-h2">Most Popular</h2>
+      </div>
+      <div>
+        <div>
+          <img class="gamecover" src="assets/GameHub_covers6.jpg" alt="Space Wars cover image">
+        </div>
+        <h3 class="mp-titles-prices">Space War</h3>
+        <p class="">$29.99</p>
+      </div>
+      <div>
+        <div>
+          <img class="gamecover" src="assets/GameHub_covers.jpg" alt="Ping Ping cover image">
+        </div>
+        <h3>Ping Pong</h3>
+        <p>$25.99</p>
+      </div>
+      <div>
+        <div>
+          <img class="gamecover" src="assets/GameHub_covers10.jpg" alt="Forge legend cover image">
+        </div>
+        <h3>Forge Legend</h3>
+        <p>$49.99</p>
+      </div>
+      <div class="show-more-button-container">
+        <a class="show-more-button-item" href="/Games/index.html" alt="Show more button">Show more</a>
+      </div>
     </section>
   </main>
   <footer>

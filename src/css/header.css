@@ -1,0 +1,40 @@
+header{
+    background-color: var(--color-very-dark); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 100%;
+    height: auto;
+    flex-flow: row wrap;
+    padding: 1em;
+}
+  
+.logo{
+    width: 179px;
+    height: 105px;
+    flex-shrink: 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.searchimg{
+    width: 75px;
+    height: 75px;
+    flex-shrink: 0;
+}
+
+.cart{
+    width: 75px;
+    height: 75px;
+    flex-shrink: 0;
+}
+
+.profile{
+    width: 75px;
+    height: 75px;
+    flex-shrink: 0;
+}

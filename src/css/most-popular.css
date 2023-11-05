@@ -1,0 +1,21 @@
+.most-popular{
+    border: 1px solid blue;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+  }
+  
+  .mp-h2-container{
+    border: 1px solid red;
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    height: max-content;
+  }
+  
+  .mp-h2{
+    font-size: 30px;
+  }
+
+  

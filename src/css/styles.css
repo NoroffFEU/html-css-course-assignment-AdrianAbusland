@@ -1,83 +1,47 @@
-/* Use import to split up your CSS into manageable chunks */
 @import url("./_reset.css");
-/* Files that are only needed to be imported are called partials */
-/* These are marked with an underscore: */
 @import url("./_variables.css");
-/* Feel free to add as many of these imports as you need */
+@import url("./_colors.css");
+@import url("./buttons.css");
+@import url("./header.css");
+@import url("./most-popular.css");
+@import url("./news.css");
+
 
 body {
   color: var(--color-primary);
-  background-color: var(--color-secondary);
+  background-color: var(--color-dark);
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
-  flex-flow: column wrap;
-}
-
-header{
-  background: #2F3236; 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  height: auto;
-  position: fixed;
-  flex-flow: row wrap;
-  padding: 1em;
-}
-
-.logo{
-  width: 179px;
-  height: 105px;
-  flex-shrink: 0;
-}
-
-nav{
-  display: flex;
-  align-items: center;
-  gap: 1em;
-}
-
-.menubutton{
-  text-decoration: none;
-  font-size: 20px;
-  color: #fff;
-}
-
-.highlight{
-  text-decoration: underline;
-}
-
-.searchimg{
-  width: 50px;
-  height: 50px;
-  flex-shrink: 0;
-
-}
-
-.cart{
-  width: 50px;
-  height: 50px;
-  flex-shrink: 0;
-}
-
-.profile{
-  width: 50px;
-  height: 50px;
-  flex-shrink: 0;
+  flex-flow: column;
 }
 
 main{
   display: flex;
-  flex-flow: column wrap;
-  position: static;
-  padding-top: 150px;
+  flex-flow: column;
+  justify-content: space-between;
+  gap: 1em 0px;
+  flex-basis: 100%;
+  /* border: 1px solid red; */
 }
 
 
 
-.gamecover{
-  width: 327px;
-  height: 424px;
-  flex-shrink: 0;
+@media (max-width: 1171px) {
+  .news-h2-p-container{
+    flex-basis: 80%;
+  }
+
+  .news-p{
+    padding: 0%;
+  }
+
+  .news{
+    justify-content: center;
+  }
+
+  .news-buy-button{
+    align-self: center;
+  }
 }
 
 @media (max-width: 670px) {
@@ -91,133 +55,15 @@ main{
     width: 100%;
     justify-content: space-around;
     gap: 0.5em;
+    
   }
 
   .icons{
-    /* padding-left: 140px; */
     order: 2;
   }
-}
 
-
-
-
-/* 
-body {
-  color: var(--color-primary);
-  background-color: var(--color-secondary);
-  font-family: Arial, Helvetica, sans-serif;
-  display: grid;
-  grid-gap: 1em;
-  grid-template-rows: auto auto auto auto;
-  grid-template-areas:
-  'header header'
-  'news news'
-  'mostpopular mostpopular'
-  ;
-}
-
-.gamecover{
-  width: 327px;
-  height: 424px;
-  flex-shrink: 0;
-}
-
-header{
-  display: grid;
-  height: auto;
-  background: black;
-  align-items: center;
-  justify-items: center;
-  grid-template-areas: 
-  'logo nav icons'
-  ;
-}
-
-.header-logo{
-  background-color: blueviolet;
-  width: 210px;
-  height: 133px;
-  flex-shrink: 0;
-  justify-self: start;
-  padding: 5px;
-}
-
-.logo{
-  width: 210px;
-  height: 133px;
-  flex-shrink: 0;
-  padding: 5px;
-}
-
-nav{
-  display: grid;
-  background-color: blueviolet;
-  border-radius: 37.5px;
-  width: 525px;
-  height: 75px;
-  flex-shrink: 0;
-  grid-template-areas:
-  'home games about contact search'
-  ;
-  align-items: center;
-  grid-gap: 30px;
-} 
-
-nav a{
+  .news-h2-p-container{
+    flex-basis: 100%;
+  }
 
 }
-
-a{
-  text-decoration: none;
-  font-size: 20px;
-  color: #fff;
-  line-height: normal;
-  align-items: center; 
-}
-
-.home{
-  margin-left: 30px;
-}
-
-.cart{
-  width: 100px;
-  height: 50px;
-  flex-shrink: 0;
-}
-
-.profile{
-  width: 50px;
-  height: 50px;
-  flex-shrink: 0;
-}
-
-.icons{
-  justify-self: end;
-  align-self: top;
-}
-
-.news{
-  background-color: black;
-}
-
-h1{
-  
-}
-
-.mostpopular{
-  background-color: black;
-}
-
-header{grid-area: header;}
-.logo{grid-area: logo;}
-nav{grid-area: nav;}
-.icons{grid-area: icons;}
-.profile{grid-area: profile;}
-.news{grid-area: news;}
-.mostpopular{grid-area: mostpopular;}
-.home{grid-area: home;}
-.games{grid-area: games;}
-.about{grid-area: about;}
-.contact{grid-area: contact;}
-.search{grid-area: search;} */

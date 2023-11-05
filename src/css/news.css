@@ -1,0 +1,32 @@
+.news{
+    background-image: url("//assets/News-background.jpg");
+    border: 1px solid red;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 5px;
+    flex-basis: 100%;
+}
+
+.news-item{
+    
+}
+
+.news-h1-container{
+    border: 1px solid blue;
+    flex-basis: 100%;
+}
+
+.news-sw-gc-container{
+    border: 1px solid green;
+    flex-basis: 25%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.news-h2-p-bb-container{
+    border: 1px solid red;
+    flex-basis: 75%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
